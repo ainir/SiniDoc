@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+body {
+    background-color:#eaeff0;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 72.667px;
+    margin: 0 auto;
+    background-color: #2b333b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    box-shadow: 0 1px 3px 2px #858d94;
+}
+
+nav h1 {
+    color: #c9e7eb;
+    top: 17px;
+    left: 18px;
+    font-size: 35px;
+    position: absolute;
+    display: flex;
+}
+
+nav ul {
+    width: 23%;
+    height: 66.67px;
+    display: flex;
+    margin: 3px auto;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: auto;
+}
+
+nav ul li a img {
+    width: 45px;
+    transition: width 300ms;
+}
+
+nav ul li a :hover {
+    width: 64px;
+}
+
+header {
+    width: 100%;
+    height: 420px;
+    background-color: #8ca4bb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 5px 1px #27292b;
+}
+
+header .jargon {
+    position: relative;
+    left: 10%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #0b2741;
+}
+
+header .logo {
+    width: 15%;
+    position: relative;
+    right: 10%;
+    border-radius: 50%;
+}
+
+section {
+    margin: 100px 200px;   
+}
+
+section .atas {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .bawah {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .artikel {
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #76a8b3;
+    color: #e2ebec;
+    box-shadow: 0 0 5px 2px #a4b5c7;
+}
+
+section img {
+    width: 200px;
+    border-radius:25px 25px 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h3 {
+    width: 50%;
+    margin: 10px auto;
+    font-size: 19px;
+}
+section p {
+    margin: 0 20px;
+}
+
+footer {
+    background-color: #2b333b ;
+    color:#c9e7eb;
+    height: 50px;
+}
+
+footer p {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+    left: 41%;
+}
