@@ -1,0 +1,100 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 10em;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+h3, h2, p{
+    text-align: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 72.667px;
+    margin: 0 auto;
+    background-color: rgb(180, 74, 21);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    box-shadow: 0 1px 3px 2px #858d94;
+}
+
+nav h1 {
+    color: #c9e7eb;
+    top: 17px;
+    left: 18px;
+    font-size: 35px;
+    position: absolute;
+    display: flex;
+}
+
+nav ul {
+    width: 23%;
+    height: 66.67px;
+    display: flex;
+    margin: 3px auto;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: auto;
+}
+
+nav ul li a img {
+    width: 45px;
+    transition: width 300ms;
+}
+
+nav ul li a :hover {
+    width: 64px;
+}
+section{
+    min-height: 600px;
+    margin: 100px;
+}
+
+footer {
+    background-color: #444444 ;
+    color:#eee;
+    height: 50px;
+}
+
+section img{
+    margin-left: 47%;
+}
+
+footer p {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 20px;
+    text-align: center;
+}
